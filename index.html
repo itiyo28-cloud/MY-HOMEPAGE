@@ -121,6 +121,18 @@
     footer .wrap{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;align-items:center}
     @media(max-width:920px){.hero-grid,.grid2,.profile{grid-template-columns:1fr}.navlinks{display:none}.hero{padding-top:52px}}
     @media(max-width:560px){.wrap{padding:0 16px}.nav{height:64px}.brand small{display:none}.hero-actions .btn,.contact-row .btn{width:100%}section{padding:52px 0}.cta-box{padding:32px 20px;border-radius:24px}.svc-grid,.corp-grid{grid-template-columns:1fr}}
+    .faq-list{max-width:860px;margin:0 auto;display:grid;gap:14px}
+    .faq-item{background:white;border:1px solid var(--line);border-radius:18px;box-shadow:0 8px 22px rgba(26,61,92,.06);overflow:hidden}
+    .faq-item summary{list-style:none;cursor:pointer;display:flex;align-items:flex-start;gap:12px;padding:18px 56px 18px 22px;position:relative;font-weight:800;color:var(--navy);font-size:16px;line-height:1.6}
+    .faq-item summary::-webkit-details-marker{display:none}
+    .faq-item summary::before{content:'Q';flex-shrink:0;display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;background:var(--navy);color:white;font-size:14px;font-weight:900;line-height:1}
+    .faq-item summary::after{content:'+';position:absolute;right:22px;top:15px;font-size:24px;font-weight:600;color:var(--blue);line-height:1.4}
+    .faq-item[open] summary::after{content:'−'}
+    .faq-item summary:hover{color:var(--blue)}
+    .faq-item summary:focus-visible{outline:3px solid var(--blue);outline-offset:-3px;border-radius:18px}
+    .faq-item p{margin:0;padding:0 22px 20px 62px;color:#435060;font-size:15px;line-height:1.85}
+    .faq-item p a{color:var(--blue);text-decoration:underline}
+    @media(max-width:560px){.faq-item summary{font-size:15px;padding:16px 48px 16px 16px}.faq-item summary::after{right:16px;top:13px}.faq-item p{padding:0 16px 18px 56px;font-size:14px}}
     .menu-btn{display:none}
     @media(max-width:920px){
       .menu-btn{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:12px;border:1px solid var(--line);background:white;color:var(--navy);font-size:24px;line-height:1;cursor:pointer;padding:0;font-family:inherit}
@@ -130,6 +142,227 @@
       .navlinks.open a.btn{margin-top:14px;border-bottom:0;padding:12px 22px}
     }
   </style>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": "https://itiyo28-cloud.github.io/MY-HOMEPAGE/#business",
+  "name": "M’sAIパートナー",
+  "url": "https://itiyo28-cloud.github.io/MY-HOMEPAGE/",
+  "image": "https://itiyo28-cloud.github.io/MY-HOMEPAGE/images/ogp.jpg",
+  "logo": "https://itiyo28-cloud.github.io/MY-HOMEPAGE/images/apple-touch-icon.png",
+  "telephone": "+81-90-5031-1795",
+  "email": "msaipartner@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressRegion": "三重県",
+    "addressLocality": "津市",
+    "addressCountry": "JP"
+  },
+  "areaServed": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "三重県"
+    },
+    {
+      "@type": "City",
+      "name": "津市"
+    }
+  ],
+  "description": "三重県津市のM’sAIパートナーは、金融業界30年以上の経験を活かし、AI活用講座、文書作成サポート、AI利用ルール整備、ホームページ作成、スマホ通信費の見直し、金融教育セミナーで個人・法人をやさしくサポート。初回相談無料です。",
+  "priceRange": "初回相談無料／3,000円〜（目安）",
+  "founder": {
+    "@type": "Person",
+    "@id": "https://itiyo28-cloud.github.io/MY-HOMEPAGE/#yoshida",
+    "name": "吉田雅浩",
+    "jobTitle": "代表"
+  },
+  "employee": {
+    "@id": "https://itiyo28-cloud.github.io/MY-HOMEPAGE/#yoshida"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "サービスメニュー",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "AI活用講座・勉強会"
+        },
+        "description": "料金目安：60分〜 3,000円〜。単発講座・出張対応・オンライン可。",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 3000,
+          "priceCurrency": "JPY"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "投資・お金の基礎知識セミナー"
+        },
+        "description": "料金目安：3,000円〜。グループ講座・個別相談どちらも可。",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 3000,
+          "priceCurrency": "JPY"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "文書作成・業務効率化サポート"
+        },
+        "description": "料金目安：3,000円〜／件。スポット対応・テンプレート作成も可。",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 3000,
+          "priceCurrency": "JPY"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "AI導入リスク管理・社内ルール整備"
+        },
+        "description": "ヒアリング無料 → ガイドライン作成。法人・団体は内容確認後にお見積もり（お見積もり無料）。"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "ホームページ作成・更新サポート"
+        },
+        "description": "料金目安：50,000円〜。サイト設計、原稿作成、公開・更新サポート。",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 50000,
+          "priceCurrency": "JPY"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "AIよろず相談室（月額サポート）"
+        },
+        "description": "料金目安：3,000円〜／月。LINE・メールで質問・相談を随時受付。",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 3000,
+          "priceCurrency": "JPY"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "スマホ通信費見直しサポート"
+        },
+        "description": "料金目安：3,000〜5,000円／回。プラン比較、乗り換え比較、手続き同行。初回相談無料・出張対応可。",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 3000,
+          "priceCurrency": "JPY",
+          "maxPrice": 5000
+        }
+      }
+    ]
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "津市でChatGPTやGemini、ClaudeなどのAIの使い方を教えてくれる人はいますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "はい。三重県津市在住の代表・吉田雅浩が、ChatGPT・Gemini・Claudeなど、主なAIについて「AIって何？」という入門から日々の仕事に活かす実践まで、わかりやすくお伝えします。職場研修・地域サークル・個別レッスンにも対応しています。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "パソコンやAIが初めてでも大丈夫ですか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "大丈夫です。専門用語を極力使わず、実際に手を動かして覚える形式を大切にしています。「自分でもできた！」と感じていただくことが目標です。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "初回相談は無料ですか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "はい、初回相談は無料です。困りごとの確認や、できることの整理をいたします。法人・団体のお見積もりも無料です。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "料金はいくらくらいですか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "個人向けの目安は、AI活用講座・勉強会が60分〜3,000円〜、文書作成サポートが3,000円〜／件、AIよろず相談（月額）が3,000円〜／月などです。金額は目安で、内容・ご要望・訪問の有無などにより変動します。法人・団体は内容確認後にお見積もりします。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "スマホの通信費の見直しもお願いできますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "はい。プラン比較から乗り換え手続き・スマホ設定まで、一緒に付き添いながらサポートします。料金の目安は3,000〜5,000円／回で、手続き同行や出張対応も可能です。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "会社でAIを使うときのルール作りも相談できますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "はい。大手金融機関での業務立ち上げ経験をもとに、情報漏洩対策やAIを安全に使うためのガイドライン・社内ルール作りをサポートします。ヒアリングは無料です。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "ホームページ作成はいくらですか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "個人向けのホームページ作成支援は50,000円〜（目安）で、サイト設計・原稿作成・公開・更新サポートをお手伝いします。作って終わりではなく、更新・管理のサポートも行います。企業・店舗・団体の場合は内容確認後にお見積もりします。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "出張やオンラインにも対応していますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "三重県・津市を中心に対応しています。AI活用講座・勉強会は出張対応・オンラインが可能で、スマホ通信費見直しサポートも出張対応できます。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "どんな人が対応してくれるのですか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "代表の吉田雅浩が対応します。生命保険会社・銀行・証券会社など金融分野で30年以上勤務し、他行向け講演や県主催の投資教育講座の講師などを務めてきました。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "問い合わせはどうすればいいですか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "メール（msaipartner@gmail.com）またはお電話（090-5031-1795）でお気軽にご連絡ください。通常2営業日以内にご返信いたします。"
+      }
+    }
+  ]
+}
+  </script>
 </head>
 <body>
 <header class="topbar">
@@ -137,7 +370,7 @@
     <a href="#top" class="brand">M’sAIパートナー<small>吉田雅浩 ／ 三重県津市</small></a>
     <nav class="navlinks" id="navmenu" aria-label="メインメニュー">
       <a href="#services">サービス</a><a href="#pricing">料金</a>
-      <a href="#strengths">選ばれる理由</a><a href="#profile">プロフィール</a>
+      <a href="#strengths">選ばれる理由</a><a href="#profile">プロフィール</a><a href="#faq">よくある質問</a>
       <a href="#contact" class="btn primary">相談する</a>
     </nav>
     <button type="button" class="menu-btn" id="menuBtn" aria-label="メニュー" aria-expanded="false" aria-controls="navmenu">≡</button>
@@ -241,6 +474,53 @@
             <span class="career-chip">生命保険会社 勤務経験</span><span class="career-chip">銀行 勤務経験</span><span class="career-chip">証券会社 勤務経験</span><span class="career-chip">投資教育講座 講師</span><span class="career-chip">他行向け研修・講演</span><span class="career-chip">鈴鹿山岳会 所属</span>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
+  <section id="faq" class="pale">
+    <div class="wrap">
+      <div class="section-title"><div class="kicker">FAQ</div><h2>よくあるご質問</h2></div>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>津市でChatGPTやGemini、ClaudeなどのAIの使い方を教えてくれる人はいますか？</summary>
+          <p>はい。三重県津市在住の代表・吉田雅浩が、ChatGPT・Gemini・Claudeなど、主なAIについて「AIって何？」という入門から日々の仕事に活かす実践まで、わかりやすくお伝えします。職場研修・地域サークル・個別レッスンにも対応しています。</p>
+        </details>
+        <details class="faq-item">
+          <summary>パソコンやAIが初めてでも大丈夫ですか？</summary>
+          <p>大丈夫です。専門用語を極力使わず、実際に手を動かして覚える形式を大切にしています。「自分でもできた！」と感じていただくことが目標です。</p>
+        </details>
+        <details class="faq-item">
+          <summary>初回相談は無料ですか？</summary>
+          <p>はい、初回相談は無料です。困りごとの確認や、できることの整理をいたします。法人・団体のお見積もりも無料です。</p>
+        </details>
+        <details class="faq-item">
+          <summary>料金はいくらくらいですか？</summary>
+          <p>個人向けの目安は、AI活用講座・勉強会が60分〜3,000円〜、文書作成サポートが3,000円〜／件、AIよろず相談（月額）が3,000円〜／月などです。金額は目安で、内容・ご要望・訪問の有無などにより変動します。法人・団体は内容確認後にお見積もりします。</p>
+        </details>
+        <details class="faq-item">
+          <summary>スマホの通信費の見直しもお願いできますか？</summary>
+          <p>はい。プラン比較から乗り換え手続き・スマホ設定まで、一緒に付き添いながらサポートします。料金の目安は3,000〜5,000円／回で、手続き同行や出張対応も可能です。</p>
+        </details>
+        <details class="faq-item">
+          <summary>会社でAIを使うときのルール作りも相談できますか？</summary>
+          <p>はい。大手金融機関での業務立ち上げ経験をもとに、情報漏洩対策やAIを安全に使うためのガイドライン・社内ルール作りをサポートします。ヒアリングは無料です。</p>
+        </details>
+        <details class="faq-item">
+          <summary>ホームページ作成はいくらですか？</summary>
+          <p>個人向けのホームページ作成支援は50,000円〜（目安）で、サイト設計・原稿作成・公開・更新サポートをお手伝いします。作って終わりではなく、更新・管理のサポートも行います。企業・店舗・団体の場合は内容確認後にお見積もりします。</p>
+        </details>
+        <details class="faq-item">
+          <summary>出張やオンラインにも対応していますか？</summary>
+          <p>三重県・津市を中心に対応しています。AI活用講座・勉強会は出張対応・オンラインが可能で、スマホ通信費見直しサポートも出張対応できます。</p>
+        </details>
+        <details class="faq-item">
+          <summary>どんな人が対応してくれるのですか？</summary>
+          <p>代表の吉田雅浩が対応します。生命保険会社・銀行・証券会社など金融分野で30年以上勤務し、他行向け講演や県主催の投資教育講座の講師などを務めてきました。</p>
+        </details>
+        <details class="faq-item">
+          <summary>問い合わせはどうすればいいですか？</summary>
+          <p>メール（<a href="mailto:msaipartner@gmail.com">msaipartner@gmail.com</a>）またはお電話（<a href="tel:090-5031-1795">090-5031-1795</a>）でお気軽にご連絡ください。通常2営業日以内にご返信いたします。</p>
+        </details>
       </div>
     </div>
   </section>
